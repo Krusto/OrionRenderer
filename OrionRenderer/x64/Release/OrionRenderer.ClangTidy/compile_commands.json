@@ -1,0 +1,107 @@
+[
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\CommandPool.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\CommandPool.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Device.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Device.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Engine.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Engine.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Fence.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Fence.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Framebuffer.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Framebuffer.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\GraphicsAdapter.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\GraphicsAdapter.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\GraphicsPipeline.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\GraphicsPipeline.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\ImageView.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\ImageView.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Log\\Log.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Log\\Log.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Queue.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Queue.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\QueueFamilyIndex.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\QueueFamilyIndex.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Renderpass.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Renderpass.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Semaphore.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Semaphore.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\ShaderModule.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\ShaderModule.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Surface.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Core\\Surface.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\main.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\main.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Renderer.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Renderer.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Shader.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Shader.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Swapchain.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Swapchain.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Util\\File.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Util\\File.cpp"
+  },
+  {
+    "directory": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/IC:\\VulkanSDK\\1.2.162.0\\Include \/IC:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\Dependencies\\GLFW\\include \/Zi \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/Oi \/Ot \/D CODE_ANALYSIS \/D NDEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/MT \/GS \/Gy \/fp:precise \/permissive- \/std:c++17 \/Fo\"x64\\Release\\\\\" \/Gd \/TP   \"C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Window.cpp\"",
+    "file": "C:\\Users\\KrustoPC\\Documents\\Projects\\OrionRenderer\\OrionRenderer\\src\\Window.cpp"
+  }
+]

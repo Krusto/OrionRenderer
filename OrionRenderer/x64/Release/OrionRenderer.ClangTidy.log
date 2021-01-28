@@ -1,0 +1,22 @@
+C:\Users\KrustoPC\Documents\Projects\OrionRenderer\OrionRenderer\src\Core\Engine.cpp:120:73: warning: suggest braces around initialization of subobject [clang-diagnostic-missing-braces]
+                renderpass.Begin(&cmdBuffer, &swapchain, &SwapchainFramebuffers[i], { 0,0,0,1 });
+                                                                                      ^
+                                                                                      {      }
+C:\Users\KrustoPC\Documents\Projects\OrionRenderer\OrionRenderer\src\Core\Log\Log.cpp:84:22: warning: unused variable 'count' [clang-diagnostic-unused-variable]
+            uint32_t count = 0;
+                     ^
+C:\Users\KrustoPC\Documents\Projects\OrionRenderer\OrionRenderer\src\Core\Queue.cpp:35:15: warning: Value stored to 'waitSemaphores' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+                VkSemaphore waitSemaphores[] = { semaphores[0] };
+                            ^
+C:\Users\KrustoPC\Documents\Projects\OrionRenderer\OrionRenderer\src\Core\Queue.cpp:35:15: note: Value stored to 'waitSemaphores' during its initialization is never read
+C:\Users\KrustoPC\Documents\Projects\OrionRenderer\OrionRenderer\src\Core\Queue.cpp:35:15: warning: unused variable 'waitSemaphores' [clang-diagnostic-unused-variable]
+                VkSemaphore waitSemaphores[] = { semaphores[0] };
+                            ^
+C:\Users\KrustoPC\Documents\Projects\OrionRenderer\OrionRenderer\src\Core\Renderpass.cpp:54:29: warning: suggest braces around initialization of subobject [clang-diagnostic-missing-braces]
+    beginInfo.renderArea = {0,0, swapchain->size.width, swapchain->size.height };
+                            ^
+                            {  }
+C:\Users\KrustoPC\Documents\Projects\OrionRenderer\OrionRenderer\src\Core\Renderpass.cpp:54:34: warning: suggest braces around initialization of subobject [clang-diagnostic-missing-braces]
+    beginInfo.renderArea = {0,0, swapchain->size.width, swapchain->size.height };
+                                 ^
+                                 {                                            }

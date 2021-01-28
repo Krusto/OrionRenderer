@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C++ Debug Build",
+			"command": "C:/Program Files/LLVM/bin/clang.exe",
+			"args": [
+				"-std=c++17",
+				"-O0",
+				"-D","_GLFW_WIN32",
+				"-D","GLFW_INCLUDE_NONE",
+				"-I","C:\\VulkanSDK\\1.2.162.0\\Include",
+				"-I","${workspaceFolder}/Dependencies/GLFW/include",
+				"-g",
+				"${fileDirname}/*.cpp",
+				"${fileDirname}/Core/*.cpp",
+				"${fileDirname}/Core/Log/*.cpp",
+				"${fileDirname}/Util/*.cpp",
+				"-o",
+				"${workspaceFolder}\\x64\\Debug\\main.exe",
+				"-L","C:/VulkanSDK/1.2.162.0/Lib",
+				"-L","${workspaceFolder}/Dependencies/GLFW/bin/Debug-windows-x86_64/GLFW",
+				"-l","gdi32.lib",
+				"-l","user32.lib",
+				"-l","shell32.lib",
+				"-l","GLFW",
+				"-l","vulkan-1"
+			],
+			"options": {
+				"cwd": "C:/Program Files/LLVM/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: \"C:/Program Files/LLVM/bin/clang.exe\""
+		}
+	]
+}
