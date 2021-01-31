@@ -1,4 +1,5 @@
 ./OrionRenderer/x64/*
+./OrionRenderer/Dependencies/*.html
 ./x64/*
 
 # Prerequisites
