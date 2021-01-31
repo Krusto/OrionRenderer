@@ -6,3 +6,9 @@
 #include "Core/Engine.h"
 #include "Window.h"
 #include "Renderer.h"
+
+#include "../Object/Vertex.h"
+#include "../Object/ShaderDataType.h"
+#include "../Object/VertexLayout.h"
+#include "../Object/VertexArray.h"
+#include "../Object/VertexBuffer.h"

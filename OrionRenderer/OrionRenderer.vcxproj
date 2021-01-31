@@ -141,7 +141,10 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\VulkanSDK\1.2.162.0\Include;$(ProjectDir)Dependencies\GLFW\include</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableModules>false</EnableModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -181,6 +184,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Object\VertexLayout.cpp" />
     <ClCompile Include="src\Core\CommandPool.cpp" />
     <ClCompile Include="src\Core\Device.cpp" />
     <ClCompile Include="src\Core\Engine.cpp" />
@@ -204,6 +208,11 @@
     <ClCompile Include="src\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Object\ShaderDataType.h" />
+    <ClInclude Include="Object\Vertex.h" />
+    <ClInclude Include="Object\VertexArray.h" />
+    <ClInclude Include="Object\VertexBuffer.h" />
+    <ClInclude Include="Object\VertexLayout.h" />
     <ClInclude Include="src\Core\CommandPool.h" />
     <ClInclude Include="src\Core\Device.h" />
     <ClInclude Include="src\Core\Engine.h" />

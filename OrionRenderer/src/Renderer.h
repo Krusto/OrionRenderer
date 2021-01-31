@@ -7,11 +7,18 @@
 namespace Orion {
 	class Renderer {
 	public:
-		static void Init();
-
+		static void Init(WindowHandle window, std::vector<Extension>& ext, GraphicsAdapterType deviceType) {
+			Orion::Engine::Init(window, ext, deviceType);
+		}
+		static void Destroy() { Orion::Engine::Destroy(); }
 		static void cmdDraw(Command::Buffer* cmdBuffer, uint32_t vertexCount, uint32_t firstVertexOffset = 0);
 
 		static uint32_t currentFrame;
+
+		static void DrawFrame() {
+			Orion::Engine::RenderFrame();
+		}
+
 		static void DrawFrame(Device* device,std::vector<Fence>& inFlightFences,
 			std::vector<Fence>& imagesInFlight,
 			std::vector<Semaphore>& imageAvailableSemahores,

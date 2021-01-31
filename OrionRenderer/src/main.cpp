@@ -22,14 +22,20 @@ int main() {
 		Extension::KHR_WIN32_SURFACE
 	};
 
-	Orion::Engine::Init(&window,extensionsToLoad,VkPhysicalDeviceType::VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU);
+	Orion::Renderer::Init(&window, extensionsToLoad, VkPhysicalDeviceType::VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU);
+
+	Orion::VertexLayout layout{ {"position",Orion::ShaderDataType::type::vec3},{"color",Orion::ShaderDataType::type::vec3} };
+
+	std::vector<Orion::Vertex> vertices;
+	Orion::VertexArray vertexData(&vertices, &layout);
+	Orion::VertexBuffer vertexBuffer(&Orion::Engine::device, &vertexData);
 
 	while (window.IsOpen()) {
 		auto start = std::chrono::steady_clock::now();
 		
 		window.Begin();
 
-		Engine::RenderFrame();
+		Renderer::DrawFrame();
 
 		window.End();
 		
@@ -38,8 +44,10 @@ int main() {
 		OrionLog("%dFPS",(1.0 / (double)std::chrono::duration_cast<std::chrono::duration<double, std::milli>>(end - start).count())*1000.0);
 		glfwPollEvents();
 	}
+
 	glfwDestroyWindow(window);
 	glfwTerminate();
-	Orion::Engine::Destroy();
+
+	Orion::Renderer::Destroy();
 	return 0;
 }
