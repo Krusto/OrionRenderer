@@ -1,0 +1,9 @@
+﻿  VertexLayout.cpp
+  CommandPool.cpp
+  Device.cpp
+  Engine.cpp
+  Fence.cpp
+  Framebuffer.cpp
+  GraphicsAdapter.cpp
+  GraphicsPipeline.cpp
+C:\Users\KrustoPC\Documents\Projects\OrionRenderer\OrionRenderer\Object\VertexLayout.cpp(9,40): warning C4267: '+=': conversion from 'size_t' to 'uint32_t', possible loss of data
