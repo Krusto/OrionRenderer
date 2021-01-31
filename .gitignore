@@ -1,7 +1,7 @@
 ./OrionRenderer/x64/*
 ./OrionRenderer/Dependencies/glm/doc/
 ./x64/*
-
+*.html
 # Prerequisites
 *.d
 
