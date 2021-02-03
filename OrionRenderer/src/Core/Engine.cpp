@@ -7,11 +7,11 @@
 #include <iostream>
 #include <bitset>
 #include "Device.h"
-#include "../Swapchain.h"
+#include "Swapchain.h"
 #include "../Util/File.h"
-#include "../Shader.h"
+#include "../Renderer/Shader.h"
 #include "Framebuffer.h"
-#include "../Renderer.h"
+#include "../Renderer/Renderer.h"
 VkDebugUtilsMessengerEXT					Orion::Engine::debugMessenger{};
 std::vector<const char*>					Orion::Engine::EnabledExtensionNames;
 Orion::GraphicsAdapter						Orion::Engine::SelectedGraphicsCard;

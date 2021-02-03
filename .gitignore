@@ -1,5 +1,7 @@
 ./OrionRenderer/x64/*
 ./OrionRenderer/Dependencies/glm/doc/
+./OrionRenderer/Dependencies/GLFW/*.c
+./OrionRenderer/Dependencies/GLFW/*.h
 ./x64/*
 *.html
 # Prerequisites
