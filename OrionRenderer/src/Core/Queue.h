@@ -9,7 +9,7 @@
 #include "Semaphore.h"
 #include <cstdint>
 #include "QueueFamilyIndex.h"
-#include "../Swapchain.h"
+#include "Swapchain.h"
 #include "CommandPool.h"
 namespace Orion {
 

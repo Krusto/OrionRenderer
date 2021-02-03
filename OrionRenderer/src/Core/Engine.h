@@ -7,7 +7,7 @@
 #include "Instance.h"
 #include "GraphicsAdapter.h"
 #include "Device.h"
-#include "../Swapchain.h"
+#include "Swapchain.h"
 #include "../Window.h"
 #include "Surface.h"
 #include "GraphicsPipeline.h"

@@ -2,7 +2,7 @@
 #include <vulkan\vulkan.hpp>
 #include "Device.h"
 #include "ShaderModule.h"
-#include "../Viewport.h"
+#include "../Renderer/Viewport.h"
 #include "Renderpass.h"
 #include "CommandPool.h"
 namespace Orion {
@@ -21,6 +21,8 @@ namespace Orion {
 			vkDestroyPipeline(*device, pipeline, nullptr);
 			vkDestroyPipelineLayout(*device, pipelineLayout, nullptr);
 		}
+
+		operator VkPipeline& () { return pipeline; }
 	private:
 		VkPipelineLayout pipelineLayout;
 		VkPipeline pipeline;

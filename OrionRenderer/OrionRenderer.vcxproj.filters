@@ -14,33 +14,54 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Header Files\Core">
-      <UniqueIdentifier>{0f27c9e0-0241-4594-a9b5-15aedefa151d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Log">
-      <UniqueIdentifier>{cf290a34-ce19-4946-bab6-0e7c488a8e2b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Renderer">
-      <UniqueIdentifier>{ce48c50c-f4c9-485e-9be4-acb57950ea5e}</UniqueIdentifier>
+      <UniqueIdentifier>{744281c1-2a32-4a2d-affe-ed85ca14967d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Util">
-      <UniqueIdentifier>{65a79b2d-9ecf-4582-add5-9819bfd258db}</UniqueIdentifier>
+      <UniqueIdentifier>{e6f4fd12-aba0-474a-acbe-304caf1b0dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Log">
+      <UniqueIdentifier>{5447fb6c-08cf-4bd2-b522-1d2039cadfcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{5c206487-1622-481c-b045-fdc0584d8e19}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Core">
-      <UniqueIdentifier>{d5ea7898-29d2-4592-9dab-80e42ca52e89}</UniqueIdentifier>
+      <UniqueIdentifier>{897047fc-7472-4936-a5e6-139782ce8eab}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Log">
-      <UniqueIdentifier>{580ed2b0-fd06-4d59-bf02-0f8fa96e0f76}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Util">
-      <UniqueIdentifier>{c145380d-1c86-4360-86de-49c768885a1a}</UniqueIdentifier>
+      <UniqueIdentifier>{2c461fe5-2d30-43a2-a88e-e2c1df6f1cee}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Renderer">
-      <UniqueIdentifier>{204ea290-b001-437a-b347-89fbc85e826a}</UniqueIdentifier>
+      <UniqueIdentifier>{6632e041-8ee1-402d-9fbe-6309fbbd6e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{46a6e5ab-bf75-40d2-91d3-9442b819097b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\File.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Log\Log.cpp">
+      <Filter>Source Files\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\Shader.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\VertexLayout.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\CommandPool.cpp">
+      <Filter>Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="src\Core\Device.cpp">
       <Filter>Source Files\Core</Filter>
@@ -48,7 +69,16 @@
     <ClCompile Include="src\Core\Engine.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
+    <ClCompile Include="src\Core\Fence.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Framebuffer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
     <ClCompile Include="src\Core\GraphicsAdapter.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\GraphicsPipeline.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="src\Core\ImageView.cpp">
@@ -57,63 +87,57 @@
     <ClCompile Include="src\Core\Queue.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
-    <ClCompile Include="src\Core\Surface.cpp">
-      <Filter>Source Files\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Swapchain.cpp">
-      <Filter>Source Files\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Window.cpp">
-      <Filter>Source Files\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Core\Log\Log.cpp">
-      <Filter>Source Files\Log</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Renderer.cpp">
-      <Filter>Source Files\Renderer</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Util\File.cpp">
-      <Filter>Source Files\Util</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Core\ShaderModule.cpp">
-      <Filter>Source Files\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Shader.cpp">
-      <Filter>Source Files\Renderer</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Core\GraphicsPipeline.cpp">
+    <ClCompile Include="src\Core\QueueFamilyIndex.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="src\Core\Renderpass.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
-    <ClCompile Include="src\Core\Framebuffer.cpp">
-      <Filter>Source Files\Core</Filter>
-    </ClCompile>
     <ClCompile Include="src\Core\Semaphore.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
-    <ClCompile Include="src\Core\Fence.cpp">
+    <ClCompile Include="src\Core\ShaderModule.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
-    <ClCompile Include="src\Core\CommandPool.cpp">
+    <ClCompile Include="src\Core\Surface.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
-    <ClCompile Include="src\Core\QueueFamilyIndex.cpp">
+    <ClCompile Include="src\Core\Swapchain.cpp">
       <Filter>Source Files\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Object\VertexLayout.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Renderer\Viewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="src\Orion.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OrionBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\Array.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\File.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\CommandPool.h">
+      <Filter>Header Files\Core</Filter>
     </ClInclude>
     <ClInclude Include="src\Core\Device.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
     <ClInclude Include="src\Core\Engine.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Fence.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Framebuffer.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
     <ClInclude Include="src\Core\GraphicsAdapter.h">
@@ -125,44 +149,35 @@
     <ClInclude Include="src\Core\ImageView.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\OrionBase.h">
-      <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Core\Queue.h">
-      <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Core\Surface.h">
-      <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Swapchain.h">
-      <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Viewport.h">
-      <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Window.h">
+    <ClInclude Include="src\Core\Instance.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
     <ClInclude Include="src\Core\Log\Log.h">
       <Filter>Header Files\Log</Filter>
     </ClInclude>
-    <ClInclude Include="src\Shader.h">
+    <ClInclude Include="src\Util\Optional.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Queue.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\QueueFamilyIndex.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\Renderer.h">
       <Filter>Header Files\Renderer</Filter>
     </ClInclude>
-    <ClInclude Include="src\Timestep.h">
-      <Filter>Header Files\Util</Filter>
+    <ClInclude Include="src\Renderer\Shader.h">
+      <Filter>Header Files\Renderer</Filter>
     </ClInclude>
-    <ClInclude Include="src\Util\File.h">
-      <Filter>Header Files\Util</Filter>
+    <ClInclude Include="src\Renderer\ShaderDataType.h">
+      <Filter>Header Files\Renderer</Filter>
     </ClInclude>
-    <ClInclude Include="src\Util\Array.h">
-      <Filter>Header Files\Util</Filter>
+    <ClInclude Include="src\Renderer\VertexLayout.h">
+      <Filter>Header Files\Renderer</Filter>
     </ClInclude>
-    <ClInclude Include="src\Core\ShaderModule.h">
-      <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Core\Framebuffer.h">
-      <Filter>Header Files\Core</Filter>
+    <ClInclude Include="src\Renderer\Vertex.h">
+      <Filter>Header Files\Renderer</Filter>
     </ClInclude>
     <ClInclude Include="src\Core\Renderpass.h">
       <Filter>Header Files\Core</Filter>
@@ -170,38 +185,17 @@
     <ClInclude Include="src\Core\Semaphore.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\Core\Fence.h">
+    <ClInclude Include="src\Core\ShaderModule.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\Core\CommandPool.h">
+    <ClInclude Include="src\Core\Surface.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\Renderer.h">
-      <Filter>Header Files\Renderer</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Core\Instance.h">
+    <ClInclude Include="src\Core\Swapchain.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\Core\QueueFamilyIndex.h">
+    <ClInclude Include="src\Util\Timestep.h">
       <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Util\Optional.h">
-      <Filter>Header Files\Util</Filter>
-    </ClInclude>
-    <ClInclude Include="Object\Vertex.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Object\VertexBuffer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Object\VertexLayout.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Object\ShaderDataType.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Object\VertexArray.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

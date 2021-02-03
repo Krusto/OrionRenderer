@@ -1,7 +1,6 @@
 #include <iostream>
 #include <chrono>
 #include "Orion.h"
-#include "Core/Instance.h"
 
 using namespace Orion;
 
@@ -26,9 +25,12 @@ int main() {
 
 	Orion::VertexLayout layout{ {"position",Orion::ShaderDataType::type::vec3},{"color",Orion::ShaderDataType::type::vec3} };
 
-	std::vector<Orion::Vertex> vertices;
-	Orion::VertexArray vertexData(&vertices, &layout);
-	Orion::VertexBuffer vertexBuffer(&Orion::Engine::device, &vertexData);
+	std::vector<Orion::Vertex> vertices
+	{
+	{{0.0f, -0.5f,0.0f}, {1.0f, 0.0f, 0.0f}},
+	{{0.5f, 0.5f,0.0f}, {0.0f, 1.0f, 0.0f}},
+	{{-0.5f, 0.5f,0.0f}, {0.0f, 0.0f, 1.0f}}
+	};
 
 	while (window.IsOpen()) {
 		auto start = std::chrono::steady_clock::now();
